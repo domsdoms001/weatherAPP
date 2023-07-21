@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="cloudy.png" type="webp/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>weatherIT</title>
+  </head>
+  <body>
+    <section class="top-banner">
+      <div class="container">
+        <div class="form__group field">
+          <form>
+            <input
+              type="input"
+              class="form__field"
+              placeholder="Input city"
+              required=""
+            />
+            <label for="name" class="form__label"> Input city here</label>
+
+            <button type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+    <footer
+      class="page-footer"
+      style="position: absolute; bottom: 20px; width: 100vw"
+    >
+      <div
+        class="dev-name"
+        style="
+          text-align: center;
+          font-size: 13px;
+          font-weight: bold;
+          color: black;
+        "
+      >
+        CREATED BY DOMS WITH FREE API
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
